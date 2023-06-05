@@ -23,3 +23,5 @@ Things you may want to cover:
 
 * ...
 # sample_app1-1
+yarn run v1.22.19
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
