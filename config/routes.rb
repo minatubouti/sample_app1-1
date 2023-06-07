@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/top' => 'homes#top'
   get 'lists/:id' => 'lists#show', as: 'list'
   patch 'lists/:id' => 'lists#update', as: 'update_list'
+  delete 'lists/:id' => 'lists#destroy', as: 'destroy_list'
 end
